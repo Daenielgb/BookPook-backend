@@ -28,7 +28,7 @@ app.use("/api/admin", adminRoutes)
 async function main() {
   await mongoose.connect(process.env.DB_URL);
   app.use("/", (req, res) => {
-    res.send("KetabinoSabz is running");
+    res.send("BookPook is running");
   });
 }
 
